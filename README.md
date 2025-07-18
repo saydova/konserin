@@ -27,23 +27,24 @@ Konserin – Concert &amp; Event Ticketing Platform Konserin is a full-featured 
 | Spring Boot   | React.js        | PostgreSQL | Docker, Postman, Git     |
 
 ## 🗂️ Project Structure
+```
 src/
-└── main/
-├── java/
-│ └── com.ticket.konserin/
-│ ├── config/ # Configuration files (CORS, Web, etc.)
-│ ├── controller/ # REST Controllers (User, Event, Ticket)
-│ ├── exception/ # Custom exceptions & handlers
-│ ├── model/ # Entity & DTO classes
-│ ├── repository/ # Spring Data JPA Repositories
-│ ├── security/ # JWT, Auth filters, and security config
-│ ├── service/ #Service interfaces
-│ │ └── implement/ # Service implementations
-│ ├── utils/ # Utility/helper classes
-│ └── KonserinApplication.java # Main Spring Boot application
-└── resources/
-    └── application.properties # App configuration
-
+ └── main/
+     └── java/
+         └── com.ticket.konserin/
+             ├── config/        # Configuration files (CORS, Web, etc.)
+             ├── controller/    # REST Controllers (User, Event, Ticket)
+             ├── exception/     # Custom exceptions & handlers
+             ├── model/         # Entity & DTO classes
+             ├── repository/    # Spring Data JPA Repositories
+             ├── security/      # JWT, Auth filters, and security config
+             ├── service/       # Service interfaces
+             │   └── implement/ # Service implementations
+             ├── utils/         # Utility/helper classes
+             └── KonserinApplication.java # Main Spring Boot application
+     └── resources/
+         └── application.properties # App configuration
+```
 
 ---
 

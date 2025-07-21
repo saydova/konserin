@@ -23,21 +23,21 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getByid(Integer id) {
+    public User getById(Integer id) {
         return userRepository.findById(id).orElseThrow(()-> new RuntimeException("not found"));
     }
 
     @Override
     public User udpdateById(Integer id, UserRequest request) {
-        User user = getByid(id);
+        User user = getById(id);
         if (request.getName() != null) {
             user.setName(request.getName());
         }
         if (request.getEmail() != null) {
-            user.setName(request.getEmail());
+            user.setEmail(request.getEmail());
         }
         if (request.getPassword() != null) {
-            user.setName(request.getPassword());
+            user.setPassword(request.getPassword());
         }
         userRepository.save(user);
         return user;
@@ -45,7 +45,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteById(Integer id) {
-        User user = getByid(id);
+        User user = getById(id);
         userRepository.deleteById(id);
     }
 }

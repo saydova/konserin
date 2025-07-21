@@ -1,6 +1,7 @@
 # Konserin BE
 # 🎟️ Konserin - Concert Ticketing Application
 **<span style="color:red; font-weight:bold">Status: Uncompleted</span>** 
+
 Konserin – Concert &amp; Event Ticketing Platform Konserin is a full-featured web application that enables users to browse, purchase, and manage tickets for concerts and live events. Designed with a flexible payment system (top-up balance or pay directly via Midtrans), Konserin provides a seamless and secure ticketing experience.
 
 **Konserin** is a modern web-based platform for discovering, managing, and purchasing concert tickets. Designed with a multi-role system (Admin, Event Organizer, and User), Konserin aims to deliver a seamless and secure experience for both organizers and attendees.
